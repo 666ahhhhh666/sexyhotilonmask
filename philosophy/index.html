@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyceum Online - Философия для всех</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Raleway:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/styles/style.css">
+
+</head>
+
+<body>
+    <!-- Навигационная панель -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="static/images/обрезанный сократ пнг.png" alt="Сократ" class="logo-image">
+                <a href="#" class="logo">Lyceum Online</a>
+            </div>
+
+            <div class="nav-center">
+                <div class="nav-links">
+                    <a href="#about">Об обучении</a>
+                    <a href="#about">О нас</a>
+                    <a href="#timeline">Хронология</a>
+                    <a href="#testimonials">Отзывы</a>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" class="search-box" placeholder="Поиск...">
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button class="theme-toggle" id="theme-toggle">
+                    <div class="toggle-container">
+                        <i class="fas fa-moon icon moon"></i>
+                        <i class="fas fa-sun icon sun"></i>
+                    </div>
+                </button>
+
+            </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header-section parallax">
+        <div class="header-image-container">
+            <img src="static/images/эстетика заставка.jpg" alt="Философские книги" class="bg-image">
+        </div>
+        <div class="container">
+            <div class="header-content">
+                <div class="tagline">
+                    <h1>МЫСЛИ ГЛУБЖЕ</h1>
+                </div>
+                <div class="subtitle">и научись видеть мир по-новому</div>
+                <h1>Введение в философию для начинающих и не только</h1>
+                <p class="intro-text">Философия – это не удел избранных, а инструмент, доступный каждому.</p>
+                <p class="intro-text">Lyceum Online разрушает стереотипы и делает философию понятной и увлекательной.
+                    Начни
+                    свое путешествие к мудрости прямо сейчас и убедись сам!</p>
+                <div class="btn-container">
+                    <a href="#start" class="btn">Узнать подробности</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about bg-container parallax">
+        <img src="static/images/какая-то эстетика.jpg" alt="Старинные книги" class="bg-image">
+        <div class="bg-overlay" style="background: rgba(78, 51, 30, 0.338);"></div>
+        <div class="container bg-content">
+            <h2 class="section-title-1 animate-on-scroll">Философия – не просто сложные термины и умные книжки</h2>
+            <div class="about-content animate-on-scroll">
+                <p>Философия – это не пыльные тона и оторванные от жизни теории. Зародившись в древней Греции как
+                    стремление к пониманию мира и себя в нем, философия прошла долгий путь, обогатившись опытом великих
+                    мыслителей. Как и тысячи лет назад, она помогает нам видеть мир по-новому, задавать важные вопросы и
+                    находить ответы, которые формируют нашу жизнь.</p>
+                <p>Начиная с Сократа и Платона, философы стремились к познанию истины, преодолевая общепринятые формы и
+                    расширяя границы человеческого разума. Изучая философию, ты научишься видеть мир во всей его
+                    сложности и находить нестандартные решения для любых задач.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages bg-container parallax">
+        <img src="static/images/картинка.png" alt="Античная статуя" class="bg-image">
+        <div class="bg-overlay" style="background: rgba(59, 30, 14, 0.494);"></div>
+        <div class="container bg-content">
+            <div class="container">
+                <h2 class="section-title-1 animate-on-scroll">Наши преимущества</h2>
+
+                <div class="advantages-grid">
+                    <div class="advantage-card animate-on-scroll floating">
+                        <div class="advantage-number">1</div>
+                        <div class="advantage-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h3>Глубокое погружение и структурированный подход</h3>
+                            <p>Погрузись в мир философии с Lyceum Online. Мы предлагаем не просто набор разрозненных
+                                фактов, а
+                                глубокое понимание философских концепций и их значения для современной жизни. Наши
+                                структурированные программы помогут тебе видеть мир во всей его сложности.</p>
+                        </div>
+                    </div>
+
+                    <div class="advantage-card animate-on-scroll floating delay-1">
+                        <div class="advantage-number">2</div>
+                        <div class="advantage-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h3>Интерактивное обучение и живое общение</h3>
+                            <p>Забудь про скучные лекции и монотонные учебники! В Lyceum Online тебя ждет интерактивное
+                                обучение, дискуссии с единомышленниками и решение интересных задач. Мы создаем атмосферу
+                                живого
+                                общения, где каждый может высказать свое мнение и получить поддержку.</p>
+                        </div>
+                    </div>
+
+                    <div class="advantage-card animate-on-scroll floating delay-2">
+                        <div class="advantage-number">3</div>
+                        <div class="advantage-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="advantage-content">
+                            <h3>Практическая польза и применение в жизни</h3>
+                            <p>Философия — это не абстрактная теория, а инструмент для улучшения качества жизни. В
+                                Lyceum Online
+                                мы не только знакомим тебя с философскими концепциями, но и учим применять полученные
+                                знания на
+                                практике. Ты научишься анализировать информацию, принимать решения и лучше понимать
+                                себя.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-container animate-on-scroll">
+                    <a href="#start" class="btn">Начать обучение</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- For Whom Section -->
+    <section id="start" class="for-whom-section">
+        <div class="philosopher-quote quote-1">“</div>
+        <div class="philosopher-quote quote-2">”</div>
+
+        <div class="for-whom-container">
+            <h2 class="section-title animate-on-scroll">Кому подойдёт Lyceum Online?</h2>
+
+            <div class="suitability-container">
+                <div class="suitability-column suitable">
+                    <div class="suitability-header">
+                        <div class="suitability-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 class="suitability-title">Подойдёт</h3>
+                    </div>
+
+                    <div class="suitability-card animate-card card-delay-1">
+                        <div class="suitability-card-content">
+                            <strong>Тем, кто жаждет знаний</strong>, готов к размышлениям и стремится к
+                            самосовершенствованию.
+                        </div>
+                    </div>
+
+                    <div class="suitability-card animate-card card-delay-2">
+                        <div class="suitability-card-content">
+                            <strong>Если ты ищешь ответы на важные вопросы</strong>, хочешь развить критическое
+                            мышление.
+                        </div>
+                    </div>
+
+                    <div class="suitability-card animate-card card-delay-3">
+                        <div class="suitability-card-content">
+                            Тем, кто хочет <strong>научиться мыслить ясно и логично</strong> – тебе с нами по пути!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="suitability-column not-suitable">
+                    <div class="suitability-header">
+                        <div class="suitability-icon">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+                        <h3 class="suitability-title">Не подойдёт</h3>
+                    </div>
+
+                    <div class="suitability-card animate-card card-delay-4">
+                        <div class="suitability-card-content">
+                            Тем, кто <strong>ищет легких путей</strong> и не готов мыслить самостоятельно.
+                        </div>
+                    </div>
+
+                    <div class="suitability-card animate-card card-delay-5">
+                        <div class="suitability-card-content">
+                            Тем, кто не готов к <strong>вдумчивости и интеллектуальной работе</strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="divider-line"></div>
+            </div>
+
+            <div class="cta-container">
+                <a href="#" class="btn">Начать обучение</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Что говорят обучающиеся</h2>
+
+            <div class="testimonials-container">
+                <div class="testimonials-grid">
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Lyceum Online открыл для меня мир философии с совершенно новой
+                            стороны!
+                            Раньше мне казалось, что это что-то очень сложное и непонятное, но благодаря доступному
+                            изложению материала, я смог понять основные концепции и применять их в своей жизни.
+                            Спасибо!"
+                        </p>
+                        <img src="static/images/дебил2.jpg" alt="Иван" class="testimonial-avatar">
+                        <p class="testimonial-author">Иван, студент</p>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Lyceum Online открыл для меня мир философии с совершенно новой
+                            стороны!
+                            Раньше мне казалось, что это что-то очень сложное и непонятное, но благодаря доступному
+                            изложению материала, я смог понять основные концепции и применять их в своей жизни.
+                            Спасибо!"
+                        </p>
+                        <img src="static/images/дура1.jpg" alt="Анна" class="testimonial-avatar">
+                        <p class="testimonial-author">Анна, менеджер</p>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Я очень рада, что присоединилась к сообществу Lyceum Online! Здесь
+                            я
+                            нашла единомышленников, с которыми могу обсуждать свои идеи и получать поддержку. Вместе мы
+                            открываем для себя мир философии и становимся лучше!"</p>
+                        <img src="static/images/дура2.jpg" alt="Елена" class="testimonial-avatar">
+                        <p class="testimonial-author">Елена, преподаватель</p>
+                    </div>
+                </div>
+
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Lyceum Online – это лучшая инвестиция в саморазвитие! Курс помог
+                            мне
+                            разбираться в себе, находить ответы на важные вопросы и обрести уверенность в своих
+                            решениях.
+                            Рекомендую всем, кто стремится к личностному росту!"</p>
+                        <img src="static/images/дебил3.jpg" alt="Дмитрий" class="testimonial-avatar">
+                        <p class="testimonial-author">Дмитрий, предприниматель</p>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Lyceum Online – это лучшее, что случилось со мной в этом году!
+                            Философия стала моей страстью, и я благодарен этому курсу за то, что он открыл для меня этот
+                            удивительный мир!"</p>
+                        <img src="static/images/дебил1.jpg" alt="Олег" class="testimonial-avatar">
+                        <p class="testimonial-author">Олег, программист</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="faq-title animate-on-scroll">Ответы на часто задаваемые вопросы</h2>
+
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">Нужно ли мне иметь какие-то знания по философии, чтобы начать обучение?
+                    </div>
+                    <div class="faq-answer">Нет, наш курс разработан специально для начинающих. Все концепции
+                        объясняются доступным языком с нуля. Мы начинаем с самых основ и постепенно переходим к более
+                        сложным темам.</div>
+                </div>
+
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">Какие преимущества я получу, если пройду курс?</div>
+                    <div class="faq-answer">Вы разовьёте критическое мышление, научитесь анализировать информацию,
+                        принимать взвешенные решения и лучше понимать себя и окружающий мир. Эти навыки полезны как в
+                        профессиональной деятельности, так и в личной жизни.</div>
+                </div>
+
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">Сколько длится обучение?</div>
+                    <div class="faq-answer">Основная программа рассчитана на 3 месяца при занятиях 2-3 раза в неделю.
+                        Каждое занятие длится около 1.5 часов. Также есть возможность продолжить обучение на продвинутом
+                        уровне.</div>
+                </div>
+
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">Какие гарантии вы предоставляете?</div>
+                    <div class="faq-answer">Мы гарантируем возврат средств в течение первых 14 дней, если курс вам не
+                        подойдёт. Также предоставляем сертификат об окончании обучения. Если у вас возникнут вопросы в
+                        процессе обучения, наши преподаватели всегда готовы помочь.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-overlay"></div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">Lyceum Online</div>
+                <p class="footer-about">Образовательная платформа, делающая философию доступной и увлекательной для
+                    всех, кто стремится к мудрости и самопознанию.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Навигация</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Программы обучения</a></li>
+                    <li><a href="#">Преподаватели</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Блог</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Курсы</h3>
+                <ul class="footer-links courses-column">
+                    <li><a href="#">Античная философия</a></li>
+                    <li><a href="#">Философия Возрождения</a></li>
+                    <li><a href="#">Современная философия</a></li>
+                    <li><a href="#">Восточная философия</a></li>
+                    <li><a href="#">Философия для начинающих</a></li>
+                    <li><a href="#">Интенсив по логике</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-info">+7 (812) 123-45-67</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">info@lyceum-online.ru</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-info">Пн-Пт: 10:00 - 20:00<br>Сб-Вс: 12:00 - 18:00</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-info address">Санкт-Петербург, Невский пр. 28</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">© 2025 Lyceum Online. Все права защищены.</div>
+            <div class="footer-nav">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия использования</a>
+                <a href="#">Карта сайта</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="copyright">© 2025 Lyceum Online. Все права защищены.</div>
+        <div class="footer-nav">
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Условия использования</a>
+            <a href="#">Карта сайта</a>
+        </div>
+    </div>
+    </footer>
+
+    <script>
+        // Упрощенный и оптимизированный код
+        document.addEventListener('DOMContentLoaded', function () {
+            // Инициализация темы
+            initTheme();
+
+            // Инициализация анимаций
+            initAnimations();
+
+            // Инициализация FAQ
+            initFAQ();
+
+            // Инициализация плавной прокрутки
+            initSmoothScroll();
+        });
+
+        // Инициализация темы
+        function initTheme() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+            const moonIcon = document.querySelector('.moon');
+            const sunIcon = document.querySelector('.sun');
+
+            // Проверка сохраненной темы
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                body.classList.replace('light-theme', 'dark-theme');
+                moonIcon.style.display = 'none';
+                sunIcon.style.display = 'block';
+            } else {
+                body.classList.replace('dark-theme', 'light-theme');
+                moonIcon.style.display = 'block';
+                sunIcon.style.display = 'none';
+            }
+
+            // Обработчик переключения темы
+            themeToggle.addEventListener('click', function () {
+                const isDark = body.classList.contains('dark-theme');
+
+                if (isDark) {
+                    body.classList.replace('dark-theme', 'light-theme');
+                    localStorage.setItem('theme', 'light');
+                    moonIcon.style.display = 'block';
+                    sunIcon.style.display = 'none';
+                } else {
+                    body.classList.replace('light-theme', 'dark-theme');
+                    localStorage.setItem('theme', 'dark');
+                    moonIcon.style.display = 'none';
+                    sunIcon.style.display = 'block';
+                }
+            });
+        }
+
+        // Инициализация анимаций при скролле
+        function initAnimations() {
+            // Функция для анимации при скролле
+            function animateOnScroll() {
+                const elements = document.querySelectorAll('.animate-on-scroll');
+                elements.forEach(element => {
+                    const rect = element.getBoundingClientRect();
+                    const isVisible = rect.top < window.innerHeight * 0.9 && rect.bottom > 0;
+
+                    if (isVisible) {
+                        element.classList.add('visible');
+                    }
+                });
+            }
+
+            // Первоначальная проверка
+            animateOnScroll();
+
+            // Проверка при скролле
+            window.addEventListener('scroll', animateOnScroll);
+        }
+
+        // Инициализация FAQ
+        function initFAQ() {
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    const isOpen = faqItem.classList.contains('active');
+
+                    // Закрываем все открытые вопросы
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.faq-answer').style.display = 'none';
+                    });
+
+                    // Открываем текущий, если был закрыт
+                    if (!isOpen) {
+                        faqItem.classList.add('active');
+                        faqItem.querySelector('.faq-answer').style.display = 'block';
+                    }
+                });
+            });
+        }
+
+        // Инициализация плавной прокрутки
+        function initSmoothScroll() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            function animateOnScroll() {
+                const cards = document.querySelectorAll('.animate-card');
+                cards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const isVisible = rect.top < window.innerHeight * 0.9 && rect.bottom > 0;
+
+                    if (isVisible) {
+                        card.classList.add('visible');
+                    }
+                });
+            }
+
+            // Первоначальная проверка
+            animateOnScroll();
+
+            // Проверка при скролле
+            window.addEventListener('scroll', animateOnScroll);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            function animateOnScroll() {
+                const cards = document.querySelectorAll('.animate-on-scroll');
+                cards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const isVisible = rect.top < window.innerHeight * 0.9 && rect.bottom > 0;
+
+                    if (isVisible) {
+                        card.classList.add('visible');
+                    }
+                });
+            }
+
+            // Первоначальная проверка
+            animateOnScroll();
+
+            // Проверка при скролле
+            window.addEventListener('scroll', animateOnScroll);
+
+            // Инициализация анимации плавающих карточек
+            const advantageCards = document.querySelectorAll('.advantage-card');
+            advantageCards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.3}s`;
+            });
+        });
+    </script>
+</body>
+
+</html>
